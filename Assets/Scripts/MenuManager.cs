@@ -39,4 +39,9 @@ public class MenuManager : MonoBehaviour
         Application.Quit();
 #endif
     }
+
+    public void ResetScore()
+    {
+        HighScore.ResetScore();
+    }
 }
